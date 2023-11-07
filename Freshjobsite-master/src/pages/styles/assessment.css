@@ -1,0 +1,259 @@
+.assessments__container {
+  padding-top: 6rem;
+}
+
+.assessments__container ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assessments__data h2 {
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.assessment__card {
+  box-shadow: 0px 4px 24px 0px rgba(0, 31, 63, 0.08);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  max-width: 60rem;
+  min-width: 30rem;
+}
+
+.assessment__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.assessment__top h3 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 22px;
+  color: #5a52ff;
+}
+
+.assessment__top span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5a52ff;
+}
+
+.assessment__info {
+  color: rgba(0, 31, 63, 0.7);
+  font-size: 16px;
+}
+
+.assessment__link {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #5a52ff;
+  text-align: end;
+}
+
+.assessment__container {
+  margin-top: 4.5rem;
+}
+
+.assessment__container h3 {
+  margin: 0.5rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.assessment__container ul {
+  margin: 0.5rem;
+}
+
+.assessment__container li {
+  margin-block: 0.5rem;
+}
+
+.assessment__container p {
+  margin: 1rem 0.5rem;
+}
+
+.assesment__details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.assesment__detail,
+.assessment__instructions {
+  flex: 1;
+  box-shadow: 0px 4px 24px 0px rgba(0, 31, 63, 0.08);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.assessment__instructions {
+  margin-inline: 1rem;
+}
+
+.assesment__detail ul,
+.assessment__instructions ul {
+  list-style-type: none;
+}
+
+.assessment__instructions ul{
+  margin-top: 3rem;
+}
+
+.assessment__progress {
+  border-top: 1px solid #d9d9d9;
+  margin: 1rem 0.5rem;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
+.assessment__start {
+  display: flex;
+  justify-content: end;
+}
+
+.assessment__start button {
+  background: #5a52ff;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.question__container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  height: 100vh;
+}
+
+.question__question {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 24px 0px rgba(0, 31, 63, 0.08);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
+.question__question h2 {
+  margin: 1rem;
+}
+
+.question__number {
+  margin-inline: 1rem;
+  font-size: 20px;
+}
+
+.question__text {
+  margin-inline: 1rem;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.question__note {
+  border-radius: 0.3125rem;
+  background: #d7d5ff;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 40rem;
+  margin-top: auto;
+}
+
+.question__report {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.question__report button {
+  border-radius: 0.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.6rem 1rem;
+  font-size: 16px;
+  background: white;
+}
+
+.assessment__time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.assessment__time h3 {
+  font-size: 24px;
+}
+
+.assessment__time div {
+  font-size: 24px;
+}
+
+.next__btn {
+  margin-top: auto;
+  margin-left: auto;
+  /* margin-bottom: 1rem; */
+}
+
+.next__btn button {
+  border: none;
+  background-color: #5a52ff;
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 0.6rem;
+  color: white;
+  font-size: 18px;
+}
+
+.next__btn button:last-child{
+  margin-left: .5rem;
+}
+
+.next__btn button:hover {
+  background-color: #3d35cf;
+}
+
+@media screen and (min-width: 600px) {
+  .assessment__container {
+    margin-top: 7rem;
+  }
+
+  .assesment__details {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .assessments__container {
+    padding-top: 3.5rem;
+  }
+
+  .assessment__card{
+    min-width: 20rem;
+  }
+
+  .question__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .question__question {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .option__form {
+    margin: 0;
+  }
+}

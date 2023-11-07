@@ -1,0 +1,55 @@
+.modal_title {
+  font-family: poppins;
+  color: #001F3F;
+  font-size: 20px;
+  font-weight: 650;
+}
+.alert_text {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #001F3F; 
+}
+.notification_icon {
+  margin: 0px 10px 0 0;
+  transform: translateY(4px);
+}
+.alert_modal_input {
+  width: 382px;
+}
+.alert_checked_text {
+  font-family: poppins;
+  color: #001F3F99;
+  opacity: .6;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.switch_content {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.alert_content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.alert_modal_btn {
+  background-color: #5A52FF;
+  outline: none;
+  border-radius: 100px;
+  padding: 9px;
+  font-family: poppins;
+  font-size: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 600;
+  width: 112px;
+  border: 1px solid #5A52FF;
+}
+.modal {
+  background-color: red;
+}

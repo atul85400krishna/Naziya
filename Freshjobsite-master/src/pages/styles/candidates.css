@@ -1,0 +1,496 @@
+.candidate_container {
+  background-color: #d4d8df29;
+  font-family: poppins;
+  padding-top: 5rem;
+}
+.candidate_main {
+  padding: 24px;
+  border-radius: 22px;
+  margin: 1rem;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+}
+.head_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.heade__ {
+  color: #001f3f;
+  font-weight: 800;
+  font-size: 35px;
+}
+.heade___ {
+  color: #001f3f;
+  font-weight: 800;
+  font-size: 25px;
+}
+.candidate {
+  display: flex;
+  width: 100%;
+}
+.candidate img {
+  border-radius: 8px;
+  margin: 0 15px 0 0;
+  border-radius: 50%;
+}
+.candidate .div1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text1 {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: #001f3f;
+}
+.text1 > span {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 100px;
+  padding: 4px 8px 4px 4px;
+  margin-left: 5px;
+}
+.form_control {
+  width: 200px;
+}
+.text1 > span img {
+  margin: 4px -20px 0 4px;
+}
+.text_avail {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.para2 {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 16px;
+  height: 22px;
+  color: #001f3f;
+  opacity: 0.6;
+  margin: 15px 0 25px 0;
+}
+.addresses img:first-child {
+  margin-left: -5px;
+}
+.addresses label {
+  margin-left: -8px;
+  margin-right: 10px;
+}
+.addresses label span:first-child {
+  color: #001f3f99;
+  opacity: 0.6;
+  font-weight: 500;
+  font-family: poppins;
+  font-size: 14px;
+}
+.addresses label span:last-child {
+  font-family: poppins;
+  font-size: 16px;
+  color: #001f3f;
+  opacity: 1;
+}
+.addresses {
+  display: flex;
+  margin-top: 50px;
+  margin-left: -5px;
+}
+.addresses p {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.skills {
+  margin-top: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+.rating {
+  padding: 2px 12px 2px 12px;
+  background-color: #4caf501a;
+  color: #001f3f;
+  font-family: poppins;
+  font-weight: 400;
+  margin: 5px;
+  border-radius: 4px;
+}
+.skills div {
+  margin: 10px 0 0 -5px;
+  display: flex;
+}
+.work_experience {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.past_job {
+  border: 1px solid #eeeeee;
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+.past_job h3,
+.education div span:first-child p:first-child {
+  color: #001f3f;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: poppins;
+}
+.past_job span p,
+.education div span:first-child p:last-child {
+  border-radius: 100px;
+  padding: 8px;
+  background-color: #f5f5f5;
+  color: #001f3f;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: poppins;
+}
+.bg-custom {
+  background-color: #64b2d1 !important;
+}
+.bg-custom1 {
+  background-color: #5292ac !important;
+}
+.bg-custom2 {
+  background-color: #407286 !important;
+}
+.bg-custom3 {
+  background-color: #2e515f !important;
+}
+.past_job > p {
+  font-family: poppins;
+  color: #001f3f99;
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 16;
+}
+.addresses img {
+  margin-top: 5px;
+}
+.past_job ul {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0 13px;
+  border-bottom: none;
+}
+.past_job ul li,
+.it_txt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #001f3f;
+  font-family: poppins;
+}
+.past_job span,
+.education div span {
+  display: flex;
+  justify-content: space-between;
+}
+.it_txt img {
+  transform: translateY(3px);
+}
+.education div {
+  border: 1px solid #eeeeee;
+  padding: 24px;
+  border-radius: 12px;
+  width: 50%;
+  margin: 10px 10px 0 0;
+}
+.education span {
+  display: flex;
+}
+.education {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .candidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .candidate_main {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .div1 > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div1 span h2 {
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+  .div1 span select {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .text1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .text1 > span {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  .para2 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+  }
+  .addresses {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .past_job span {
+    display: flex;
+    flex-direction: column;
+  }
+  .past_job span p,
+  .education div span:first-child p:last-child {
+    margin: 10px 0 10px 0;
+    width: 190px;
+    text-align: center;
+  }
+  .education div span:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .education div {
+    width: 100%;
+  }
+  .education_list {
+    display: flex;
+    flex-direction: column;
+  }
+  .head_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_control {
+    width: 50%;
+  }
+  .heade__ {
+    margin-top: 20px;
+  }
+}
+
+.chart {
+  display: table;
+  table-layout: fixed;
+
+  width: 100%;
+  max-width: 40rem;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 4.5rem;
+
+  background-image: linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.1) 2%,
+    transparent 2%
+  );
+  background-size: 100% 50px;
+  background-position: left top;
+}
+
+.chart li {
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+  height: 200px;
+}
+
+.chart span {
+  margin: 0 1rem;
+  display: block;
+  background: gray;
+  animation: draw 1s ease-in-out;
+}
+
+.chart span:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  padding: 5px 5px 0;
+  display: block;
+  text-align: center;
+  content: attr(title);
+  word-wrap: break-word;
+}
+
+.all__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.personality__skills {
+  flex: 1;
+  min-width: 300px;
+}
+
+@keyframes draw {
+  0% {
+    height: 0;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .candidate_container {
+    padding-top: 3.3rem;
+  }
+  .chart span:before {
+    font-size: 12px;
+  }
+  .para2 {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .para2 {
+    margin-bottom: 110px;
+  }
+  .form_control {
+    width: 100%;
+  }
+}
+
+.bar-graph .year {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  opacity: 0;
+}
+
+.bar-graph-horizontal {
+  max-width: 380px;
+}
+
+.bar-graph-horizontal > div {
+  float: left;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.bar-graph-horizontal .year {
+  float: left;
+  margin-top: 18px;
+  width: 50px;
+}
+
+.bar-graph-horizontal .bar {
+  border-radius: 3px;
+  height: 30px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 0;
+}
+
+.bar-graph-one .bar::after {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  color: #fff;
+  content: attr(data-percentage);
+  font-weight: 700;
+  position: absolute;
+  right: 16px;
+  top: 6px;
+}
+
+.bar-graph-one .bar-one .bar {
+  background-color: #64b2d1;
+  -webkit-animation: show-bar-one 1.2s 0.1s forwards;
+  -moz-animation: show-bar-one 1.2s 0.1s forwards;
+  animation: show-bar-one 1.2s 0.1s forwards;
+}
+
+.bar-graph-one .bar-two .bar {
+  background-color: #5292ac;
+  -webkit-animation: show-bar-two 1.2s 0.2s forwards;
+  -moz-animation: show-bar-two 1.2s 0.2s forwards;
+  animation: show-bar-two 1.2s 0.2s forwards;
+}
+
+.bar-graph-one .bar-three .bar {
+  background-color: #407286;
+  -webkit-animation: show-bar-three 1.2s 0.3s forwards;
+  -moz-animation: show-bar-three 1.2s 0.3s forwards;
+  animation: show-bar-three 1.2s 0.3s forwards;
+}
+
+.bar-graph-one .bar-four .bar {
+  background-color: #2e515f;
+  -webkit-animation: show-bar-four 1.2s 0.4s forwards;
+  -moz-animation: show-bar-four 1.2s 0.4s forwards;
+  animation: show-bar-four 1.2s 0.4s forwards;
+}
+
+/* Bar Graph Horizontal Animations */
+@-webkit-keyframes show-bar-one {
+  0% {
+    width: 0;
+  }
+  /* 100% {
+    width: 100%;
+  } */
+}
+
+@-webkit-keyframes show-bar-two {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 71%;
+  }
+}
+
+@-webkit-keyframes show-bar-three {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 54.7%;
+  }
+}
+
+@-webkit-keyframes show-bar-four {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 76.8%;
+  }
+}
+
+@-webkit-keyframes fade-in-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

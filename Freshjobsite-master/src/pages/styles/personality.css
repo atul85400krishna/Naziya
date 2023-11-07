@@ -1,0 +1,44 @@
+.personality__container {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.personality__container h2 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-inline: 1rem;
+}
+
+.personality__question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  
+}
+
+.personality__question span{
+  margin-left: 1rem;
+  margin-top: .3rem;
+}
+
+.question__text {
+  font-size: 18px;
+}
+
+.assessment__submit{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .personality__container{
+    margin-top: 3.5rem;
+  }
+
+  .personality__question{
+    flex-direction: column;
+  }
+}

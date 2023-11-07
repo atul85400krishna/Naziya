@@ -1,0 +1,78 @@
+.post-job__container {
+  margin-top: 4.5rem;
+}
+
+.job-post__title {
+  text-align: center;
+  padding-bottom: 0.7rem;
+  margin-bottom: 1.3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-job__form-container {
+  margin-right: 0;
+  box-shadow: 0px 4px 24px 0px rgba(0, 31, 63, 0.08);
+  border-radius: 1.375rem;
+  padding: 1.5rem;
+}
+
+.job-post__submit {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+
+.job-post__submit button {
+  padding: 0.7rem 2rem;
+  background: #5a52ff;
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+}
+
+.table-empty {
+  padding: 3rem;
+  text-align: center;
+}
+
+.post-job__container .job-card--card-info,  .post-job__container .job-description{
+  margin: 1rem 0;
+}
+
+.img-upload input{
+  display: none;
+}
+
+.img-upload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px dashed rgb(216, 200, 200);
+  border-radius: 1rem;
+  height: 6.7rem;
+}
+
+.job-post__autopost{
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .post-job__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+    margin-top: 5rem;
+  }
+
+  .post-job__form-container {
+    margin: 1.5rem;
+  }
+
+  .post-job__container .job-card--card-info,  .post-job__container .job-description{
+    margin: 1.5rem;
+    margin-left: 0;
+  }
+}

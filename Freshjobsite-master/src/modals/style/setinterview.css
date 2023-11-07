@@ -1,0 +1,15 @@
+.interview_modal_btns {
+  width: 121px;
+}
+#combo-box-demo {
+  font-family: poppins;
+}
+.setinterview_modal_input {
+  width: 100%;
+}
+.first_child {
+  margin-bottom: 15px;
+}
+input[value=""]:not(:focus) { 
+  color: transparent;
+}

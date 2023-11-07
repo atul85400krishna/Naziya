@@ -1,0 +1,244 @@
+.application_container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.application_head {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.application_head h2 {
+  height: 21px;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 11%;
+  color: #5a52ff;
+}
+.input_application {
+  border: 1px solid #5a52ff33;
+  gap: 10px;
+  border-radius: 100px;
+  padding: 8px 8px 8px 30px;
+  outline: none;
+  width: 258px;
+  margin: 0 5px 0 5px;
+  font-family: poppins;
+  color: #001f3f99;
+}
+.application_head div img {
+  position: absolute;
+  width: 12.79px;
+  height: 12.79px;
+  padding: 0;
+  margin: 12px 15px 12px 15px;
+}
+.application_head > img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.application_main {
+  background-color: #d4d8df29;
+  padding: 10px;
+  padding-top: 5rem;
+}
+.application_main h2 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: #001f3f;
+  margin-bottom: 10px;
+}
+.menu_icon_two {
+  width: 18px;
+  height: 18px;
+  color: #001f3f99;
+  left: 3px;
+  top: 3px;
+  margin-top: 18px;
+  margin-right: 5px;
+}
+.date {
+  width: 93px;
+  border: 1px solid #316bd629;
+  border-radius: 100px;
+  padding: 6px;
+  margin: 0 0 0 10px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 16px;
+  color: #001f3f;
+  outline: none;
+}
+.date_status {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.job {
+  width: 100%;
+  height: 172px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 0 #001f3f14;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+.job::-webkit-scrollbar {
+  display: none;
+}
+.job_top {
+  display: flex;
+  justify-content: space-between;
+}
+.job_top p {
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: poppins;
+  /* background-color: #69CA8F; */
+  height: 22px;
+  line-height: 12px;
+  font-size: 14px;
+}
+.job_listings {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.job_content{
+  display: flex;
+  flex-direction: column;
+}
+.job_content p:first-child {
+  height: 35px;
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 16px;
+  color: #001f3f;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.job_content .para {
+  height: 19px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #001f3fb2;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+.job_content span img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(2px);
+}
+.job_content span {
+  height: 19px;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+.application_search {
+  display: none;
+}
+/* larger devices */
+@media only screen and (min-width: 800px) {
+  .application_main {
+    padding: 25px;
+    padding-top: 5.5rem;
+  }
+  .application_search {
+    display: block;
+    width: 55%;
+    transform: translateY(5px);
+  }
+  .date_status {
+    display: flex;
+    justify-content: space-between;
+  }
+  .application_search img {
+    position: absolute;
+    width: 17.05px;
+    height: 17.05px;
+    margin: 11px;
+    margin-left: 1rem;
+  }
+  .application_search .input_application {
+    width: 100%;
+    padding-left: 2.2rem;
+  }
+  .job {
+    height: 220px;
+    width: 31.6%;
+    margin: 7px;
+  }
+  .job_listings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .job_top img {
+    height: 80px;
+    width: 80px;
+    border-radius: 7px;
+  }
+  .job_content {
+    margin-top: 5px;
+  }
+  .job_content p:first-child {
+    height: 52px;
+    margin-bottom: 1%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 915px) {
+  .job {
+    width: 48%;
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  .job {
+    width: 48%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  .job_listings {
+    display: flex;
+    flex-direction: row;
+  }
+  .application_search {
+    display: block;
+    width: 55%;
+    transform: translateY(5px);
+  }
+  .application_search img {
+    position: absolute;
+    width: 17.05px;
+    height: 17.05px;
+    margin: 11px;
+  }
+  .application_search .input_application {
+    width: 100%;
+  }
+  .date_status {
+    display: flex;
+    justify-content: space-between;
+  }
+}

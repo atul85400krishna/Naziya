@@ -1,0 +1,379 @@
+.profile_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4d8df29;
+  margin-top: 10px;
+}
+
+.profile__container {
+  margin-top: 3rem;
+}
+
+.public-view-btn {
+  border: 1px solid #5a52ff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: #5a52ff;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.edit-btn {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: #5a52ff;
+  border: 1px solid #5a52ff;
+}
+
+.profile_div1 {
+  text-align: center;
+  padding: 20px 0 0 0;
+  width: 100%;
+}
+.profile_div1 h2 {
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 24px;
+  color: #001f3f;
+  margin: 0 0 0px 0;
+}
+.small_devices .ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.small_devices .ul li {
+  width: 170px;
+}
+.ul li {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 13px;
+  color: #001f3f99;
+  margin: 3.3px;
+  padding-bottom: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.profile {
+  background-color: #fff;
+  width: 100%;
+  margin: 10px 0 10px 0;
+  border-radius: 12px;
+  padding: 16px 1.5rem;
+  box-shadow: 0 0 10px 0 #001f3f14;
+}
+.image_sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.image_sec-image {
+  border-radius: 50%;
+}
+.image_sec-imagesec {
+  border-radius: 50%;
+}
+
+.image_sec .upload {
+  display: none;
+}
+.image {
+  position: relative;
+}
+.imageSecond {
+  position: relative;
+}
+
+.upload23 {
+  position: absolute;
+  opacity: 0;
+  bottom: 2;
+  left: 0;
+  width: 22px;
+  height: 22px;
+}
+.upload2 {
+  position: absolute;
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+}
+.employer__profile-infoModel {
+  width: 100%;
+}
+.image_sec label {
+  background-color: #5a52ff;
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid #ffffff;
+  position: absolute;
+  margin: 80px -40px -75px 40px;
+  cursor: pointer;
+}
+.input_content {
+  width: 100%;
+}
+.job_pref {
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 16px;
+  color: #001f3f;
+  margin: 5px 0 25px;
+}
+.pref_inputs p {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 10px;
+  color: #001f3f99;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.skill_text {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 12px;
+  color: #49454f;
+  text-align: right;
+  transform: translateY(-10px);
+}
+.work_exp > span {
+  display: flex;
+  justify-content: space-between;
+}
+.work_exp > span span {
+  font-family: poppins;
+  font-size: 16px;
+  color: #5a52ff;
+}
+.work_exp > span span img {
+  transform: translate(-3px, 4px);
+}
+.large_profile {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0.5rem;
+}
+.large_about {
+  width: 30%;
+}
+.large_profile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.large_profile ul {
+  border: none;
+}
+.large_profile ul li {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+.profile > button,
+.head_1 > button {
+  display: block;
+  border: 1px solid #5a52ff;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #5a52ff;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  padding: 0.3rem 1rem;
+  margin: auto;
+}
+.div11 {
+  width: 100%;
+}
+.candidate {
+  position: relative;
+}
+.head_1 {
+  width: 100%;
+}
+.head_1 > button {
+  margin-right: 0;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  z-index: 2000;
+}
+/* .large_profile # */
+.work_exp {
+  margin-bottom: 20px;
+}
+
+.small_devices {
+  display: flex;
+  flex-direction: column;
+}
+.large_devices {
+  display: none;
+}
+.main_profile {
+  padding-right: 3rem;
+}
+
+.delete-btn {
+  position: absolute;
+  right: -2.2rem;
+  top: 2.7rem;
+  border: none;
+  background-color: white;
+}
+
+.delete-btn img {
+  width: 25px;
+}
+
+.employer__profile-container {
+  margin-top: 4.7rem;
+  text-align: center;
+}
+
+.employer__profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0 #001f3f14;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px so;
+  margin: 1rem auto;
+  max-width: 50rem;
+  gap: 1rem;
+}
+.employer__profileModel {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0 #001f3f14;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px so;
+  margin: 1rem auto;
+  max-width: 50rem;
+  gap: 1rem;
+}
+
+.employer__profileModel:first-child {
+  display: inline;
+}
+.employer__profile_secondModel {
+  display: block;
+  gap: 1rem;
+}
+.editButton {
+  background-color: transparent;
+}
+
+.employer__profile img {
+  border-radius: 50%;
+  width: 8rem;
+}
+
+.employer__profile-info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.employer__profile-email {
+  margin-top: 1rem;
+}
+.employer__profile-email > input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.employer__profile-email div {
+  font-weight: 600;
+}
+
+.employer__profile-info h3 {
+  font-size: 26px;
+  margin-top: 0.5rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  transform: translateY(-1rem);
+}
+
+@media only screen and (min-width: 800px) {
+  .employer__profileModel {
+    display: flex;
+  }
+  .profile__container {
+    margin-top: 4.8rem;
+  }
+  .ul {
+    display: flex;
+    /* margin: 5px; */
+    /* margin-bottom: -20px; */
+    list-style-type: none;
+    border: none;
+    /* width: 400px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .small_devices {
+    display: none;
+  }
+  .large_devices {
+    display: flex;
+    flex-direction: column;
+  }
+  .employer__profile-infoModel {
+    width: 70%;
+  }
+
+  .head_1 > button {
+    right: 0rem;
+  }
+
+  .employer__profile_secondModel {
+    display: flex;
+  }
+  .employer__profile-container {
+    margin-top: 5.5rem;
+    text-align: center;
+  }
+
+  .employer__profile {
+    justify-content: space-between;
+  }
+}
+.large_devices .ul li {
+  font-size: 15px;
+  /* transform: translateY(5px); */
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .profile_div1 h2 {
+    margin-top: 45px;
+  }
+  .employer__profile-infoModel {
+    width: 70%;
+  }
+  .employer__profile_secondModel {
+    display: flex;
+  }
+  .employer__profileModel {
+    display: flex;
+  }
+}

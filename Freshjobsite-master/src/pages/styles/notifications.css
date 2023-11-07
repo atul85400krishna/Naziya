@@ -1,0 +1,73 @@
+.notifications__container {
+  margin-top: 4rem;
+}
+
+.notifications__container h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 0.5rem;
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  max-width: 30rem;
+  margin: auto;
+}
+
+.notification {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 2px 6px 0px rgba(90, 82, 255, 0.12);
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  height: 4rem;
+  margin-inline: 0.5rem;
+  width: 100%;
+}
+
+.notification img{
+  width: 35px;
+  height: 35px;
+}
+
+.notification div{
+  margin-left: 1rem;
+}
+
+.notification span {
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.settings__input{
+  max-width: 90%;
+  margin-left: 1rem;
+}
+
+.settings__input p{
+  margin-bottom: 1rem;
+}
+
+.settings__button{
+  max-width: 8rem;
+  padding-left: 2rem;
+}
+
+@media screen and (min-width: 600px) {
+  .notifications__container {
+    margin-top: 6rem;
+  }
+
+  .notifications__container h3 {
+    margin-block: 1rem;
+  }
+
+  .settings__input{
+    margin-left: 2rem;
+  }
+}
